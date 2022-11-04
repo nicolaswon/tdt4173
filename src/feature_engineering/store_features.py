@@ -55,6 +55,8 @@ class AggTransformer(BaseEstimator, TransformerMixin):
         
         
     def fit(self, X, y=None):
+        X = X.copy()
+        
         if self.stores_extra is not None:
             X = pd.concat([X, self.stores_extra], ignore_index=True).drop_duplicates()
         
