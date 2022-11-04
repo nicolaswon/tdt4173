@@ -11,7 +11,7 @@ class ClusterSimilarity(BaseEstimator, TransformerMixin):
         
     def fit(self, X, y=None):
         self.kmeans_ = KMeans(self.n_clusters, random_state=self.random_state)
-        self.kmeans_.fit(X, sample_weight=self.sample_weight)
+        self.kmeans_.fit(X, sample_weight=self.sample_weight['revenue'])
         return self
     
     def transform(self, X):

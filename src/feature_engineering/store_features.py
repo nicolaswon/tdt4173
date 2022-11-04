@@ -61,7 +61,7 @@ class AggTransformer(BaseEstimator, TransformerMixin):
             X = pd.concat([X, self.stores_extra], ignore_index=True).drop_duplicates()
         
         if self.sample_revenue is not None:
-            X['revenue'] = self.sample_revenue
+            X['revenue'] = self.sample_revenue['revenue']
         
         mapping = self.calculations(X, self.agg_cols, self.agg_name)
         self.mapping_ = mapping
