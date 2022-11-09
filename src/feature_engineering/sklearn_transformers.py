@@ -90,23 +90,27 @@ class AggTransformer(BaseEstimator, TransformerMixin):
         
         
     def fit(self, X, y=None):
-        X = X.copy()
+        X = X.copy()[['store_id'] + self.agg_cols]
         
         if self.stores_extra is not None:
-            X = pd.concat([X, self.stores_extra], ignore_index=True).drop_duplicates()
+            self.stores = pd.concat([X, self.stores_extra[['store_id']+ self.agg_cols]], ignore_index=True).drop_duplicates()
+        else:
+            self.stores = X
         
         if self.sample_revenue is not None:
-            X['revenue'] = self.sample_revenue['revenue']
-        
-        mapping = self.calculations(X, self.agg_cols, self.agg_name)
-        self.mapping_ = mapping
+            self.stores['revenue'] = self.sample_revenue['revenue']
         
         return self
     
     def transform(self, X, y=None):
-        X = X.copy()
+        X = X.copy()[['store_id'] + self.agg_cols]
         
-        for index, row in self.mapping_.iterrows():
+        if self.sample_revenue is None:
+            mapping = self.calculations(pd.concat([X, self.stores], ignore_index=True).drop_duplicates(), self.agg_cols, self.agg_name)
+        else:
+            mapping = self.calculations(self.stores, self.agg_cols, self.agg_name)
+        
+        for index, row in mapping.iterrows():
             ind = (X[self.agg_cols] == row[self.agg_cols]).all(axis=1)
             X.loc[ind, self.agg_name] = row[self.agg_name]
             

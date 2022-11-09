@@ -12,13 +12,18 @@ def enrich_keys(stores_df, raw_path):
 def set_year_2016(dataframe):
     return dataframe[dataframe['year'] == 2016].drop(['year'], axis=1)
 
+def combine_keys(dataframe):
+    dataframe = dataframe.copy()
+    dataframe['t_district'] = dataframe['district_name'] + dataframe['municipality_name']
+    return dataframe
+
 def data_enricher(stores_df, raw_path, geo_groups, importance_levels):
     stores_df = set_year_2016(stores_df)
     bus_stops_df = bus_stops_lat_lon(pd.read_csv(f"{raw_path}/busstops_norway.csv"))
     grunnkrets_age_df = set_year_2016(pd.read_csv(f"{raw_path}/grunnkrets_age_distribution.csv"))
     grunnkrets_household_pop_df = set_year_2016(pd.read_csv(f"{raw_path}/grunnkrets_households_num_persons.csv"))
     grunnkrets_household_inc_df = set_year_2016(pd.read_csv(f"{raw_path}/grunnkrets_income_households.csv"))
-    grunnkrets_norway_df = set_year_2016(pd.read_csv(f"{raw_path}/grunnkrets_norway_stripped.csv"))
+    grunnkrets_norway_df = combine_keys(set_year_2016(pd.read_csv(f"{raw_path}/grunnkrets_norway_stripped.csv")))
     plaace_df = pd.read_csv(f"{raw_path}/plaace_hierarchy.csv")
     
     # Merged dataframe for simple joining.
