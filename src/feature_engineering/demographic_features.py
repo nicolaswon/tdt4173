@@ -91,14 +91,14 @@ def age_distrubution(grunnkrets_age_df, geographic_df, grouping_element):
     new_df["pensinors_%"] = new_df["num_pensinors"] / \
         new_df["population_count"]
 
-    age_dist_df = new_df.drop(["population_count"], axis=1)
+    age_dist_df = new_df.drop(["population_count"]+["num_kids", "num_kids+", "num_youths",
+                       "num_youthAdult", "num_adult", "num_adults+", "num_pensinors"], axis=1)
     return age_dist_df
 
 def age_dist_by_geo_group(stores_df, age_df, grunnkrets_norway_df, geo_groups): 
     combined_df = stores_df.merge(grunnkrets_norway_df, how = "left", on = "grunnkrets_id")
 
-    age_columns = ['num_kids', 'num_kids+', 'num_youths', 'num_youthAdult', 'num_adult',
-       'num_adults+', 'num_pensinors', 'kids_%', 'kids+_%', 'youths_%',
+    age_columns = ['kids_%', 'kids+_%', 'youths_%',
        'youthAdult_%', 'adult_%', 'adults+_%', 'pensinors_%']
 
     df_list = []
@@ -109,7 +109,7 @@ def age_dist_by_geo_group(stores_df, age_df, grunnkrets_norway_df, geo_groups):
       merged_df2 = merged_df.add_prefix(f'{geo_group}_')
       df_list.append(merged_df2)
     
-    return pd.concat(df_list, axis = 1)
+    return pd.concat(df_list, axis = 1).reset_index()
 
 def household_type_distrubution(grunnkrets_norway_df, grunnkrets_household_pop_df, grouping_element):
     combined_df = grunnkrets_norway_df.merge(grunnkrets_household_pop_df, how="inner", on="grunnkrets_id")
