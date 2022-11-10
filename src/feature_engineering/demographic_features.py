@@ -53,7 +53,7 @@ def population_density_grouped_by_geo_group(stores_df, age_df, grunnkrets_df, ge
         merged_df2 = merged_df.add_prefix(f'{geo_group}_')
         df_list.append(merged_df2)
 
-    return pd.concat(df_list, axis = 1)
+    return pd.concat(df_list, axis = 1).reset_index()
 
 def age_distrubution(grunnkrets_age_df, geographic_df, grouping_element):
     age_df1 = grunnkrets_age_df
