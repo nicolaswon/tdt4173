@@ -4,7 +4,7 @@ from feature_engineering.demographic_features import *
 from feature_engineering.store_features import *
 
 def enrich_keys(stores_df, raw_path):
-    grunnkrets_norway_df = set_year_2016(pd.read_csv(f"{raw_path}/grunnkrets_norway_stripped.csv"))
+    grunnkrets_norway_df = combine_keys(set_year_2016(pd.read_csv(f"{raw_path}/grunnkrets_norway_stripped.csv")))
     plaace_df = pd.read_csv(f"{raw_path}/plaace_hierarchy.csv")
     
     return stores_df.merge(grunnkrets_norway_df, on="grunnkrets_id", how="left").merge(plaace_df, on="plaace_hierarchy_id", how="left")
@@ -52,8 +52,8 @@ def data_enricher(stores_df, raw_path, geo_groups, importance_levels):
                  .merge(population_df, on="store_id", how="left")
                  .merge(population_density_df, on="store_id", how="left")
                  .merge(age_dist_df, on="store_id", how="left")
-                 .merge(household_dist_df, on="store_id", how="left")
-                 .merge(mean_income_df, on="store_id", how="left")
+                 #.merge(household_dist_df, on="store_id", how="left")
+                 #.merge(mean_income_df, on="store_id", how="left")
                  .merge(bus_stops_in_radius, on="store_id", how="left")
                  .merge(bus_stops_distances, on="store_id", how="left")
     )
