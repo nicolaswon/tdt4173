@@ -206,3 +206,44 @@ def mean_income_per_capita_by_geo_group(stores_df, grunnkrets_age_df, grunnkrets
     
     dfs = [df.set_index('store_id') for df in df_list]
     return pd.concat(dfs, axis=1)
+
+def num_households(household_dist):
+    household_dist = household_dist.copy()
+    population = household_dist.drop(["grunnkrets_id"], axis=1).sum(axis=1)
+    household_dist["household_count"] = population
+    return household_dist[["grunnkrets_id", "household_count"]]
+
+def num_households_geo(geo_group, household_dist, grunnkrets_df):
+    _num_households = num_households(household_dist)
+    merged_df = grunnkrets_df.merge(_num_households, on="grunnkrets_id", how="inner")
+    return merged_df.groupby([geo_group], as_index=False)['household_count'].sum()
+
+def total_grunnkrets_income(income_dist, household_dist):
+    _num_households = num_households(household_dist)
+    merged_df = income_dist.merge(_num_households, on="grunnkrets_id", how="inner")[['grunnkrets_id', 'household_count', 'all_households']]
+    merged_df['total_income'] = merged_df['household_count'] * merged_df['all_households']
+    return merged_df[['grunnkrets_id', 'total_income']]    
+
+def total_income_geo(geo_group, income_dist, household_dist, grunnkrets_df):
+    grunnkrets_income = total_grunnkrets_income(income_dist, household_dist)
+    merged_df = grunnkrets_df.merge(grunnkrets_income, on="grunnkrets_id", how="inner")
+    return merged_df.groupby([geo_group], as_index=False)['total_income'].sum()
+
+def average_household_income_geo(geo_group, income_dist, household_dist, grunnkrets_df):
+    income = total_income_geo(geo_group, income_dist, household_dist, grunnkrets_df)
+    households = num_households_geo(geo_group, household_dist, grunnkrets_df)
+    
+    merged_df = income.merge(households, on=geo_group, how="inner")
+    merged_df[f'avg_household_income_{geo_group}'] = merged_df['total_income'] / merged_df['household_count']
+    return merged_df[[geo_group, f'avg_household_income_{geo_group}']]
+    
+def average_household_income_by_geo_groups(stores_df, geo_groups, income_dist, household_dist, grunnkrets_df):
+    merged_df = stores_df.merge(grunnkrets_df, how="left", on="grunnkrets_id")
+    
+    df_list = []
+    for geo_group in geo_groups:
+        df = average_household_income_geo(geo_group, income_dist, household_dist, grunnkrets_df)
+        df_list.append(merged_df.merge(df, how="left", on=[geo_group])[['store_id', f'avg_household_income_{geo_group}']])
+    
+    dfs = [df.set_index('store_id') for df in df_list]
+    return pd.concat(dfs, axis=1).reset_index()

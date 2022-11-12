@@ -20,7 +20,7 @@ def stores_in_radius(stores_df, compare_df, radius=0.1, store_type_group=None):
     
     if store_type_group is None:
         count = new_df[(new_df < radius) & (new_df > 0)].count(axis=1)
-        return count.to_frame(name="count").reset_index()
+        return count.to_frame(name="all_stores_in_radius").reset_index()
     
     else:
         test_df = new_df[(new_df < radius) & (new_df > 0)]
@@ -35,7 +35,7 @@ def stores_in_radius(stores_df, compare_df, radius=0.1, store_type_group=None):
             
             store_count[index] = number_same
         
-        df = pd.DataFrame.from_dict(store_count, orient='index', columns=["count"])
+        df = pd.DataFrame.from_dict(store_count, orient='index', columns=[f"{store_type_group}_in_radius"])
         df.index.rename('store_id', inplace=True)
         return df.reset_index()
 
@@ -78,3 +78,9 @@ def store_closest_by_store_groups(stores_df, compare_df, store_type_groups):
 
     dfs = [df.set_index('store_id') for df in df_list]
     return pd.concat(dfs, axis=1).reset_index()
+
+def encode_levels(stores_df):
+    stores_df['level2'] = stores_df['lv1'].astype(str) + "," + stores_df['lv2'].astype(str)
+    stores_df['level3'] = stores_df['lv1'].astype(str) + "," + stores_df['lv2'].astype(str) + "," +stores_df['lv3'].astype(str)
+    
+    return stores_df

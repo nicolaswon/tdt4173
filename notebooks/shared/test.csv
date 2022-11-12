@@ -1,155 +1,155 @@
 ,variable,relative_importance,scaled_importance,percentage
-0,remainder__chain_name,19732.158203125,1.0,0.5244941710595024
-1,remainder__sales_channel_name,4975.52392578125,0.25215305262418136,0.1322528063162431
-2,remainder__municipality_name,4684.56298828125,0.23740753241778445,0.1245188669187478
-3,remainder__plaace_hierarchy_id,4256.00146484375,0.21568859427499032,0.11312741046125038
-4,remainder__mall_name,3452.677001953125,0.17497715994423363,0.09177450045929679
-5,pipeline__distance_to_lv1_desc,222.45436096191406,0.011273696403198499,0.00591298804977209
-6,pipeline__distance_to_lv2_desc,75.32586669921875,0.0038174165199673558,0.0020022127132291287
-7,pipeline__t_district_density,54.07956314086914,0.0027406816114166625,0.0014374715299180036
-8,pipeline__t_district_youths_%,42.42403793334961,0.0021499948204667684,0.0011276597511429415
-9,pipeline__t_district_youthAdult_%,22.87065315246582,0.0011590548239595897,0.0006079174991052025
-10,pipeline__grunnkrets_id_kids+_%,20.342592239379883,0.0010309359994974197,0.0005407199224717988
-11,pipeline__distance_to_lv3_desc,16.788299560546875,0.000850809089797795,0.0004462444082833842
-12,pipeline__grunnkrets_id_kids_%,13.982281684875488,0.0007086037695897402,0.0003716585467406094
-13,pipeline__grunnkrets_id_youths_%,6.764313220977783,0.0003428065572627789,0.00017980004108530308
-14,pipeline__Cluster 49 similarity,6.460849761962891,0.0003274274255990751,0.0001717337761717338
-15,pipeline__all_households,5.602133750915527,0.000283908819970251,0.0001489085211867783
-16,pipeline__municipality_name_kids_%,5.146143913269043,0.00026079985069519884,0.0001367880015028203
-17,pipeline__other_households,4.6922993659973145,0.00023779960193377078,0.00012472450509453273
-18,pipeline__grunnkrets_id_pensinors_%,4.4913129806518555,0.00022761387448943938,0.00011938215042198013
-19,pipeline__area_km2,3.9836556911468506,0.00020188646625162146,0.0001058882747647764
-20,pipeline__t_district_pensinors_%,3.944356918334961,0.00019989485578472048,0.00010484368668386575
-21,pipeline__grunnkrets_id_youthAdult_%,3.809959888458252,0.00019308378988441645,0.00010127132232045414
-22,pipeline__distance_to_standard_holdeplass,3.7160887718200684,0.00018832652432472125,9.877616426421188e-05
-23,pipeline__grunnkrets_id_adult_%,3.5084099769592285,0.00017780163430899305,9.325592079992009e-05
-24,pipeline__grunnkrets_id,0.0,0.0,0.0
-25,pipeline__lat,0.0,0.0,0.0
-26,pipeline__lon,0.0,0.0,0.0
-27,pipeline__singles,0.0,0.0,0.0
-28,pipeline__couple_without_children,0.0,0.0,0.0
-29,pipeline__couple_with_children,0.0,0.0,0.0
-30,pipeline__single_parent_with_children,0.0,0.0,0.0
-31,pipeline__distance_to_mangler_viktighetsnivå,0.0,0.0,0.0
-32,pipeline__distance_to_lokalt_knutepunkt,0.0,0.0,0.0
-33,pipeline__distance_to_nasjonalt_knutepunkt,0.0,0.0,0.0
-34,pipeline__distance_to_regionalt_knutepunkt,0.0,0.0,0.0
-35,pipeline__distance_to_annen_viktig_holdeplass,0.0,0.0,0.0
-36,pipeline__distance_to_lv4_desc,0.0,0.0,0.0
-37,pipeline__grunnkrets_id_density,0.0,0.0,0.0
-38,pipeline__municipality_name_density,0.0,0.0,0.0
-39,pipeline__grunnkrets_id_adults+_%,0.0,0.0,0.0
-40,pipeline__t_district_kids_%,0.0,0.0,0.0
-41,pipeline__t_district_kids+_%,0.0,0.0,0.0
-42,pipeline__t_district_adult_%,0.0,0.0,0.0
-43,pipeline__t_district_adults+_%,0.0,0.0,0.0
-44,pipeline__municipality_name_kids+_%,0.0,0.0,0.0
-45,pipeline__municipality_name_youths_%,0.0,0.0,0.0
-46,pipeline__municipality_name_youthAdult_%,0.0,0.0,0.0
-47,pipeline__municipality_name_adult_%,0.0,0.0,0.0
-48,pipeline__municipality_name_adults+_%,0.0,0.0,0.0
-49,pipeline__municipality_name_pensinors_%,0.0,0.0,0.0
-50,pipeline__Cluster 0 similarity,0.0,0.0,0.0
-51,pipeline__Cluster 1 similarity,0.0,0.0,0.0
-52,pipeline__Cluster 2 similarity,0.0,0.0,0.0
-53,pipeline__Cluster 3 similarity,0.0,0.0,0.0
-54,pipeline__Cluster 4 similarity,0.0,0.0,0.0
-55,pipeline__Cluster 5 similarity,0.0,0.0,0.0
-56,pipeline__Cluster 6 similarity,0.0,0.0,0.0
-57,pipeline__Cluster 7 similarity,0.0,0.0,0.0
-58,pipeline__Cluster 8 similarity,0.0,0.0,0.0
-59,pipeline__Cluster 9 similarity,0.0,0.0,0.0
-60,pipeline__Cluster 10 similarity,0.0,0.0,0.0
-61,pipeline__Cluster 11 similarity,0.0,0.0,0.0
-62,pipeline__Cluster 12 similarity,0.0,0.0,0.0
-63,pipeline__Cluster 13 similarity,0.0,0.0,0.0
-64,pipeline__Cluster 14 similarity,0.0,0.0,0.0
-65,pipeline__Cluster 15 similarity,0.0,0.0,0.0
-66,pipeline__Cluster 16 similarity,0.0,0.0,0.0
-67,pipeline__Cluster 17 similarity,0.0,0.0,0.0
-68,pipeline__Cluster 18 similarity,0.0,0.0,0.0
-69,pipeline__Cluster 19 similarity,0.0,0.0,0.0
-70,pipeline__Cluster 20 similarity,0.0,0.0,0.0
-71,pipeline__Cluster 21 similarity,0.0,0.0,0.0
-72,pipeline__Cluster 22 similarity,0.0,0.0,0.0
-73,pipeline__Cluster 23 similarity,0.0,0.0,0.0
-74,pipeline__Cluster 24 similarity,0.0,0.0,0.0
-75,pipeline__Cluster 25 similarity,0.0,0.0,0.0
-76,pipeline__Cluster 26 similarity,0.0,0.0,0.0
-77,pipeline__Cluster 27 similarity,0.0,0.0,0.0
-78,pipeline__Cluster 28 similarity,0.0,0.0,0.0
-79,pipeline__Cluster 29 similarity,0.0,0.0,0.0
-80,pipeline__Cluster 30 similarity,0.0,0.0,0.0
-81,pipeline__Cluster 31 similarity,0.0,0.0,0.0
-82,pipeline__Cluster 32 similarity,0.0,0.0,0.0
-83,pipeline__Cluster 33 similarity,0.0,0.0,0.0
-84,pipeline__Cluster 34 similarity,0.0,0.0,0.0
-85,pipeline__Cluster 35 similarity,0.0,0.0,0.0
-86,pipeline__Cluster 36 similarity,0.0,0.0,0.0
-87,pipeline__Cluster 37 similarity,0.0,0.0,0.0
-88,pipeline__Cluster 38 similarity,0.0,0.0,0.0
-89,pipeline__Cluster 39 similarity,0.0,0.0,0.0
-90,pipeline__Cluster 40 similarity,0.0,0.0,0.0
-91,pipeline__Cluster 41 similarity,0.0,0.0,0.0
-92,pipeline__Cluster 42 similarity,0.0,0.0,0.0
-93,pipeline__Cluster 43 similarity,0.0,0.0,0.0
-94,pipeline__Cluster 44 similarity,0.0,0.0,0.0
-95,pipeline__Cluster 45 similarity,0.0,0.0,0.0
-96,pipeline__Cluster 46 similarity,0.0,0.0,0.0
-97,pipeline__Cluster 47 similarity,0.0,0.0,0.0
-98,pipeline__Cluster 48 similarity,0.0,0.0,0.0
-99,pipeline__Cluster 50 similarity,0.0,0.0,0.0
-100,pipeline__Cluster 51 similarity,0.0,0.0,0.0
-101,pipeline__Cluster 52 similarity,0.0,0.0,0.0
-102,pipeline__Cluster 53 similarity,0.0,0.0,0.0
-103,pipeline__Cluster 54 similarity,0.0,0.0,0.0
-104,pipeline__Cluster 55 similarity,0.0,0.0,0.0
-105,pipeline__Cluster 56 similarity,0.0,0.0,0.0
-106,pipeline__Cluster 57 similarity,0.0,0.0,0.0
-107,pipeline__Cluster 58 similarity,0.0,0.0,0.0
-108,pipeline__Cluster 59 similarity,0.0,0.0,0.0
-109,pipeline__Cluster 60 similarity,0.0,0.0,0.0
-110,pipeline__Cluster 61 similarity,0.0,0.0,0.0
-111,pipeline__Cluster 62 similarity,0.0,0.0,0.0
-112,pipeline__Cluster 63 similarity,0.0,0.0,0.0
-113,pipeline__Cluster 64 similarity,0.0,0.0,0.0
-114,pipeline__Cluster 65 similarity,0.0,0.0,0.0
-115,pipeline__Cluster 66 similarity,0.0,0.0,0.0
-116,pipeline__Cluster 67 similarity,0.0,0.0,0.0
-117,pipeline__Cluster 68 similarity,0.0,0.0,0.0
-118,pipeline__Cluster 69 similarity,0.0,0.0,0.0
-119,pipeline__Cluster 70 similarity,0.0,0.0,0.0
-120,pipeline__Cluster 71 similarity,0.0,0.0,0.0
-121,pipeline__Cluster 72 similarity,0.0,0.0,0.0
-122,pipeline__Cluster 73 similarity,0.0,0.0,0.0
-123,pipeline__Cluster 74 similarity,0.0,0.0,0.0
-124,pipeline__Cluster 75 similarity,0.0,0.0,0.0
-125,pipeline__Cluster 76 similarity,0.0,0.0,0.0
-126,pipeline__Cluster 77 similarity,0.0,0.0,0.0
-127,pipeline__Cluster 78 similarity,0.0,0.0,0.0
-128,pipeline__Cluster 79 similarity,0.0,0.0,0.0
-129,pipeline__Cluster 80 similarity,0.0,0.0,0.0
-130,pipeline__Cluster 81 similarity,0.0,0.0,0.0
-131,pipeline__Cluster 82 similarity,0.0,0.0,0.0
-132,pipeline__Cluster 83 similarity,0.0,0.0,0.0
-133,pipeline__Cluster 84 similarity,0.0,0.0,0.0
-134,pipeline__Cluster 85 similarity,0.0,0.0,0.0
-135,pipeline__Cluster 86 similarity,0.0,0.0,0.0
-136,pipeline__Cluster 87 similarity,0.0,0.0,0.0
-137,pipeline__Cluster 88 similarity,0.0,0.0,0.0
-138,pipeline__Cluster 89 similarity,0.0,0.0,0.0
-139,pipeline__Cluster 90 similarity,0.0,0.0,0.0
-140,pipeline__Cluster 91 similarity,0.0,0.0,0.0
-141,pipeline__Cluster 92 similarity,0.0,0.0,0.0
-142,pipeline__Cluster 93 similarity,0.0,0.0,0.0
-143,pipeline__Cluster 94 similarity,0.0,0.0,0.0
-144,pipeline__Cluster 95 similarity,0.0,0.0,0.0
-145,pipeline__Cluster 96 similarity,0.0,0.0,0.0
-146,pipeline__Cluster 97 similarity,0.0,0.0,0.0
-147,pipeline__Cluster 98 similarity,0.0,0.0,0.0
-148,pipeline__Cluster 99 similarity,0.0,0.0,0.0
-149,remainder__address,0.0,0.0,0.0
-150,remainder__grunnkrets_name,0.0,0.0,0.0
-151,remainder__district_name,0.0,0.0,0.0
-152,remainder__geometry,0.0,0.0,0.0
-153,remainder__t_district,0.0,0.0,0.0
+0,remainder__chain_name,19732.1582,1,0.524494171
+1,remainder__sales_channel_name,4975.523926,0.252153053,0.132252806
+2,remainder__municipality_name,4684.562988,0.237407532,0.124518867
+3,remainder__plaace_hierarchy_id,4256.001465,0.215688594,0.11312741
+4,remainder__mall_name,3452.677002,0.17497716,0.0917745
+5,pipeline__distance_to_lv1_desc,222.454361,0.011273696,0.005912988
+6,pipeline__distance_to_lv2_desc,75.3258667,0.003817417,0.002002213
+7,pipeline__t_district_density,54.07956314,0.002740682,0.001437472
+8,pipeline__t_district_youths_%,42.42403793,0.002149995,0.00112766
+9,pipeline__t_district_youthAdult_%,22.87065315,0.001159055,0.000607917
+10,pipeline__grunnkrets_id_kids+_%,20.34259224,0.001030936,0.00054072
+11,pipeline__distance_to_lv3_desc,16.78829956,0.000850809,0.000446244
+12,pipeline__grunnkrets_id_kids_%,13.98228168,0.000708604,0.000371659
+13,pipeline__grunnkrets_id_youths_%,6.764313221,0.000342807,0.0001798
+14,pipeline__Cluster 49 similarity,6.460849762,0.000327427,0.000171734
+15,pipeline__all_households,5.602133751,0.000283909,0.000148909
+16,pipeline__municipality_name_kids_%,5.146143913,0.0002608,0.000136788
+17,pipeline__other_households,4.692299366,0.0002378,0.000124725
+18,pipeline__grunnkrets_id_pensinors_%,4.491312981,0.000227614,0.000119382
+19,pipeline__area_km2,3.983655691,0.000201886,0.000105888
+20,pipeline__t_district_pensinors_%,3.944356918,0.000199895,0.000104844
+21,pipeline__grunnkrets_id_youthAdult_%,3.809959888,0.000193084,0.000101271
+22,pipeline__distance_to_standard_holdeplass,3.716088772,0.000188327,9.88E-05
+23,pipeline__grunnkrets_id_adult_%,3.508409977,0.000177802,9.33E-05
+24,pipeline__grunnkrets_id,0,0,0
+25,pipeline__lat,0,0,0
+26,pipeline__lon,0,0,0
+27,pipeline__singles,0,0,0
+28,pipeline__couple_without_children,0,0,0
+29,pipeline__couple_with_children,0,0,0
+30,pipeline__single_parent_with_children,0,0,0
+31,pipeline__distance_to_mangler_viktighetsnivå,0,0,0
+32,pipeline__distance_to_lokalt_knutepunkt,0,0,0
+33,pipeline__distance_to_nasjonalt_knutepunkt,0,0,0
+34,pipeline__distance_to_regionalt_knutepunkt,0,0,0
+35,pipeline__distance_to_annen_viktig_holdeplass,0,0,0
+36,pipeline__distance_to_lv4_desc,0,0,0
+37,pipeline__grunnkrets_id_density,0,0,0
+38,pipeline__municipality_name_density,0,0,0
+39,pipeline__grunnkrets_id_adults+_%,0,0,0
+40,pipeline__t_district_kids_%,0,0,0
+41,pipeline__t_district_kids+_%,0,0,0
+42,pipeline__t_district_adult_%,0,0,0
+43,pipeline__t_district_adults+_%,0,0,0
+44,pipeline__municipality_name_kids+_%,0,0,0
+45,pipeline__municipality_name_youths_%,0,0,0
+46,pipeline__municipality_name_youthAdult_%,0,0,0
+47,pipeline__municipality_name_adult_%,0,0,0
+48,pipeline__municipality_name_adults+_%,0,0,0
+49,pipeline__municipality_name_pensinors_%,0,0,0
+50,pipeline__Cluster 0 similarity,0,0,0
+51,pipeline__Cluster 1 similarity,0,0,0
+52,pipeline__Cluster 2 similarity,0,0,0
+53,pipeline__Cluster 3 similarity,0,0,0
+54,pipeline__Cluster 4 similarity,0,0,0
+55,pipeline__Cluster 5 similarity,0,0,0
+56,pipeline__Cluster 6 similarity,0,0,0
+57,pipeline__Cluster 7 similarity,0,0,0
+58,pipeline__Cluster 8 similarity,0,0,0
+59,pipeline__Cluster 9 similarity,0,0,0
+60,pipeline__Cluster 10 similarity,0,0,0
+61,pipeline__Cluster 11 similarity,0,0,0
+62,pipeline__Cluster 12 similarity,0,0,0
+63,pipeline__Cluster 13 similarity,0,0,0
+64,pipeline__Cluster 14 similarity,0,0,0
+65,pipeline__Cluster 15 similarity,0,0,0
+66,pipeline__Cluster 16 similarity,0,0,0
+67,pipeline__Cluster 17 similarity,0,0,0
+68,pipeline__Cluster 18 similarity,0,0,0
+69,pipeline__Cluster 19 similarity,0,0,0
+70,pipeline__Cluster 20 similarity,0,0,0
+71,pipeline__Cluster 21 similarity,0,0,0
+72,pipeline__Cluster 22 similarity,0,0,0
+73,pipeline__Cluster 23 similarity,0,0,0
+74,pipeline__Cluster 24 similarity,0,0,0
+75,pipeline__Cluster 25 similarity,0,0,0
+76,pipeline__Cluster 26 similarity,0,0,0
+77,pipeline__Cluster 27 similarity,0,0,0
+78,pipeline__Cluster 28 similarity,0,0,0
+79,pipeline__Cluster 29 similarity,0,0,0
+80,pipeline__Cluster 30 similarity,0,0,0
+81,pipeline__Cluster 31 similarity,0,0,0
+82,pipeline__Cluster 32 similarity,0,0,0
+83,pipeline__Cluster 33 similarity,0,0,0
+84,pipeline__Cluster 34 similarity,0,0,0
+85,pipeline__Cluster 35 similarity,0,0,0
+86,pipeline__Cluster 36 similarity,0,0,0
+87,pipeline__Cluster 37 similarity,0,0,0
+88,pipeline__Cluster 38 similarity,0,0,0
+89,pipeline__Cluster 39 similarity,0,0,0
+90,pipeline__Cluster 40 similarity,0,0,0
+91,pipeline__Cluster 41 similarity,0,0,0
+92,pipeline__Cluster 42 similarity,0,0,0
+93,pipeline__Cluster 43 similarity,0,0,0
+94,pipeline__Cluster 44 similarity,0,0,0
+95,pipeline__Cluster 45 similarity,0,0,0
+96,pipeline__Cluster 46 similarity,0,0,0
+97,pipeline__Cluster 47 similarity,0,0,0
+98,pipeline__Cluster 48 similarity,0,0,0
+99,pipeline__Cluster 50 similarity,0,0,0
+100,pipeline__Cluster 51 similarity,0,0,0
+101,pipeline__Cluster 52 similarity,0,0,0
+102,pipeline__Cluster 53 similarity,0,0,0
+103,pipeline__Cluster 54 similarity,0,0,0
+104,pipeline__Cluster 55 similarity,0,0,0
+105,pipeline__Cluster 56 similarity,0,0,0
+106,pipeline__Cluster 57 similarity,0,0,0
+107,pipeline__Cluster 58 similarity,0,0,0
+108,pipeline__Cluster 59 similarity,0,0,0
+109,pipeline__Cluster 60 similarity,0,0,0
+110,pipeline__Cluster 61 similarity,0,0,0
+111,pipeline__Cluster 62 similarity,0,0,0
+112,pipeline__Cluster 63 similarity,0,0,0
+113,pipeline__Cluster 64 similarity,0,0,0
+114,pipeline__Cluster 65 similarity,0,0,0
+115,pipeline__Cluster 66 similarity,0,0,0
+116,pipeline__Cluster 67 similarity,0,0,0
+117,pipeline__Cluster 68 similarity,0,0,0
+118,pipeline__Cluster 69 similarity,0,0,0
+119,pipeline__Cluster 70 similarity,0,0,0
+120,pipeline__Cluster 71 similarity,0,0,0
+121,pipeline__Cluster 72 similarity,0,0,0
+122,pipeline__Cluster 73 similarity,0,0,0
+123,pipeline__Cluster 74 similarity,0,0,0
+124,pipeline__Cluster 75 similarity,0,0,0
+125,pipeline__Cluster 76 similarity,0,0,0
+126,pipeline__Cluster 77 similarity,0,0,0
+127,pipeline__Cluster 78 similarity,0,0,0
+128,pipeline__Cluster 79 similarity,0,0,0
+129,pipeline__Cluster 80 similarity,0,0,0
+130,pipeline__Cluster 81 similarity,0,0,0
+131,pipeline__Cluster 82 similarity,0,0,0
+132,pipeline__Cluster 83 similarity,0,0,0
+133,pipeline__Cluster 84 similarity,0,0,0
+134,pipeline__Cluster 85 similarity,0,0,0
+135,pipeline__Cluster 86 similarity,0,0,0
+136,pipeline__Cluster 87 similarity,0,0,0
+137,pipeline__Cluster 88 similarity,0,0,0
+138,pipeline__Cluster 89 similarity,0,0,0
+139,pipeline__Cluster 90 similarity,0,0,0
+140,pipeline__Cluster 91 similarity,0,0,0
+141,pipeline__Cluster 92 similarity,0,0,0
+142,pipeline__Cluster 93 similarity,0,0,0
+143,pipeline__Cluster 94 similarity,0,0,0
+144,pipeline__Cluster 95 similarity,0,0,0
+145,pipeline__Cluster 96 similarity,0,0,0
+146,pipeline__Cluster 97 similarity,0,0,0
+147,pipeline__Cluster 98 similarity,0,0,0
+148,pipeline__Cluster 99 similarity,0,0,0
+149,remainder__address,0,0,0
+150,remainder__grunnkrets_name,0,0,0
+151,remainder__district_name,0,0,0
+152,remainder__geometry,0,0,0
+153,remainder__t_district,0,0,0
