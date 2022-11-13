@@ -81,98 +81,38 @@
 79,Cluster 37 similarity
 80,Cluster 38 similarity
 81,Cluster 39 similarity
-82,Cluster 40 similarity
-83,Cluster 41 similarity
-84,Cluster 42 similarity
-85,Cluster 43 similarity
-86,Cluster 44 similarity
-87,Cluster 45 similarity
-88,Cluster 46 similarity
-89,Cluster 47 similarity
-90,Cluster 48 similarity
-91,Cluster 49 similarity
-92,Cluster 50 similarity
-93,Cluster 51 similarity
-94,Cluster 52 similarity
-95,Cluster 53 similarity
-96,Cluster 54 similarity
-97,Cluster 55 similarity
-98,Cluster 56 similarity
-99,Cluster 57 similarity
-100,Cluster 58 similarity
-101,Cluster 59 similarity
-102,Cluster 60 similarity
-103,Cluster 61 similarity
-104,Cluster 62 similarity
-105,Cluster 63 similarity
-106,Cluster 64 similarity
-107,Cluster 65 similarity
-108,Cluster 66 similarity
-109,Cluster 67 similarity
-110,Cluster 68 similarity
-111,Cluster 69 similarity
-112,Cluster 70 similarity
-113,Cluster 71 similarity
-114,Cluster 72 similarity
-115,Cluster 73 similarity
-116,Cluster 74 similarity
-117,Cluster 75 similarity
-118,Cluster 76 similarity
-119,Cluster 77 similarity
-120,Cluster 78 similarity
-121,Cluster 79 similarity
-122,Cluster 80 similarity
-123,Cluster 81 similarity
-124,Cluster 82 similarity
-125,Cluster 83 similarity
-126,Cluster 84 similarity
-127,Cluster 85 similarity
-128,Cluster 86 similarity
-129,Cluster 87 similarity
-130,Cluster 88 similarity
-131,Cluster 89 similarity
-132,Cluster 90 similarity
-133,Cluster 91 similarity
-134,Cluster 92 similarity
-135,Cluster 93 similarity
-136,Cluster 94 similarity
-137,Cluster 95 similarity
-138,Cluster 96 similarity
-139,Cluster 97 similarity
-140,Cluster 98 similarity
-141,Cluster 99 similarity
-142,grunnkrets_id_density
-143,t_district_density
-144,municipality_name_density
-145,avg_household_income_grunnkrets_id
-146,avg_household_income_t_district
-147,avg_household_income_municipality_name
-148,distance_to_mangler_viktighetsnivå
-149,distance_to_standard_holdeplass
-150,distance_to_lokalt_knutepunkt
-151,distance_to_nasjonalt_knutepunkt
-152,distance_to_regionalt_knutepunkt
-153,distance_to_annen_viktig_holdeplass
-154,grunnkrets_id_kids_%
-155,grunnkrets_id_kids+_%
-156,grunnkrets_id_youths_%
-157,grunnkrets_id_youthAdult_%
-158,grunnkrets_id_adult_%
-159,grunnkrets_id_adults+_%
-160,grunnkrets_id_pensinors_%
-161,t_district_kids_%
-162,t_district_kids+_%
-163,t_district_youths_%
-164,t_district_youthAdult_%
-165,t_district_adult_%
-166,t_district_adults+_%
-167,t_district_pensinors_%
-168,municipality_name_kids_%
-169,municipality_name_kids+_%
-170,municipality_name_youths_%
-171,municipality_name_youthAdult_%
-172,municipality_name_adult_%
-173,municipality_name_adults+_%
-174,municipality_name_pensinors_%
-175,distance_closest_mall_name
-176,distance_closest_chain_name
+82,grunnkrets_id_density
+83,t_district_density
+84,municipality_name_density
+85,avg_household_income_grunnkrets_id
+86,avg_household_income_t_district
+87,avg_household_income_municipality_name
+88,distance_to_mangler_viktighetsnivå
+89,distance_to_standard_holdeplass
+90,distance_to_lokalt_knutepunkt
+91,distance_to_nasjonalt_knutepunkt
+92,distance_to_regionalt_knutepunkt
+93,distance_to_annen_viktig_holdeplass
+94,grunnkrets_id_kids_%
+95,grunnkrets_id_kids+_%
+96,grunnkrets_id_youths_%
+97,grunnkrets_id_youthAdult_%
+98,grunnkrets_id_adult_%
+99,grunnkrets_id_adults+_%
+100,grunnkrets_id_pensinors_%
+101,t_district_kids_%
+102,t_district_kids+_%
+103,t_district_youths_%
+104,t_district_youthAdult_%
+105,t_district_adult_%
+106,t_district_adults+_%
+107,t_district_pensinors_%
+108,municipality_name_kids_%
+109,municipality_name_kids+_%
+110,municipality_name_youths_%
+111,municipality_name_youthAdult_%
+112,municipality_name_adult_%
+113,municipality_name_adults+_%
+114,municipality_name_pensinors_%
+115,distance_closest_mall_name
+116,distance_closest_chain_name

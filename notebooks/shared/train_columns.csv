@@ -1,0 +1,588 @@
+,0
+0,store_id
+1,store_name
+2,plaace_hierarchy_id
+3,sales_channel_name_x
+4,grunnkrets_id
+5,address
+6,lat
+7,lon
+8,chain_name
+9,mall_name
+10,sales_channel_name_y
+11,lv1
+12,lv1_desc
+13,lv2
+14,lv2_desc
+15,lv3
+16,lv3_desc
+17,lv4
+18,lv4_desc
+19,level2
+20,level3
+21,grunnkrets_name
+22,district_name
+23,municipality_name
+24,geometry
+25,area_km2
+26,t_district
+27,all_households
+28,singles
+29,couple_without_children
+30,couple_with_children
+31,other_households
+32,single_parent_with_children
+33,distance_to_lv1_desc
+34,distance_to_lv2_desc
+35,distance_to_lv3_desc
+36,distance_to_lv4_desc
+37,lv1_desc_in_radius
+38,lv2_desc_in_radius
+39,lv3_desc_in_radius
+40,lv4_desc_in_radius
+41,all_stores_in_radius
+42,Cluster 0 similarity
+43,Cluster 1 similarity
+44,Cluster 2 similarity
+45,Cluster 3 similarity
+46,Cluster 4 similarity
+47,Cluster 5 similarity
+48,Cluster 6 similarity
+49,Cluster 7 similarity
+50,Cluster 8 similarity
+51,Cluster 9 similarity
+52,Cluster 10 similarity
+53,Cluster 11 similarity
+54,Cluster 12 similarity
+55,Cluster 13 similarity
+56,Cluster 14 similarity
+57,Cluster 15 similarity
+58,Cluster 16 similarity
+59,Cluster 17 similarity
+60,Cluster 18 similarity
+61,Cluster 19 similarity
+62,Cluster 20 similarity
+63,Cluster 21 similarity
+64,Cluster 22 similarity
+65,Cluster 23 similarity
+66,Cluster 24 similarity
+67,Cluster 25 similarity
+68,Cluster 26 similarity
+69,Cluster 27 similarity
+70,Cluster 28 similarity
+71,Cluster 29 similarity
+72,Cluster 30 similarity
+73,Cluster 31 similarity
+74,Cluster 32 similarity
+75,Cluster 33 similarity
+76,Cluster 34 similarity
+77,Cluster 35 similarity
+78,Cluster 36 similarity
+79,Cluster 37 similarity
+80,Cluster 38 similarity
+81,Cluster 39 similarity
+82,Cluster 40 similarity
+83,Cluster 41 similarity
+84,Cluster 42 similarity
+85,Cluster 43 similarity
+86,Cluster 44 similarity
+87,Cluster 45 similarity
+88,Cluster 46 similarity
+89,Cluster 47 similarity
+90,Cluster 48 similarity
+91,Cluster 49 similarity
+92,Cluster 50 similarity
+93,Cluster 51 similarity
+94,Cluster 52 similarity
+95,Cluster 53 similarity
+96,Cluster 54 similarity
+97,Cluster 55 similarity
+98,Cluster 56 similarity
+99,Cluster 57 similarity
+100,Cluster 58 similarity
+101,Cluster 59 similarity
+102,Cluster 60 similarity
+103,Cluster 61 similarity
+104,Cluster 62 similarity
+105,Cluster 63 similarity
+106,Cluster 64 similarity
+107,Cluster 65 similarity
+108,Cluster 66 similarity
+109,Cluster 67 similarity
+110,Cluster 68 similarity
+111,Cluster 69 similarity
+112,Cluster 70 similarity
+113,Cluster 71 similarity
+114,Cluster 72 similarity
+115,Cluster 73 similarity
+116,Cluster 74 similarity
+117,Cluster 75 similarity
+118,Cluster 76 similarity
+119,Cluster 77 similarity
+120,Cluster 78 similarity
+121,Cluster 79 similarity
+122,Cluster 80 similarity
+123,Cluster 81 similarity
+124,Cluster 82 similarity
+125,Cluster 83 similarity
+126,Cluster 84 similarity
+127,Cluster 85 similarity
+128,Cluster 86 similarity
+129,Cluster 87 similarity
+130,Cluster 88 similarity
+131,Cluster 89 similarity
+132,Cluster 90 similarity
+133,Cluster 91 similarity
+134,Cluster 92 similarity
+135,Cluster 93 similarity
+136,Cluster 94 similarity
+137,Cluster 95 similarity
+138,Cluster 96 similarity
+139,Cluster 97 similarity
+140,Cluster 98 similarity
+141,Cluster 99 similarity
+142,Cluster 100 similarity
+143,Cluster 101 similarity
+144,Cluster 102 similarity
+145,Cluster 103 similarity
+146,Cluster 104 similarity
+147,Cluster 105 similarity
+148,Cluster 106 similarity
+149,Cluster 107 similarity
+150,Cluster 108 similarity
+151,Cluster 109 similarity
+152,Cluster 110 similarity
+153,Cluster 111 similarity
+154,Cluster 112 similarity
+155,Cluster 113 similarity
+156,Cluster 114 similarity
+157,Cluster 115 similarity
+158,Cluster 116 similarity
+159,Cluster 117 similarity
+160,Cluster 118 similarity
+161,Cluster 119 similarity
+162,Cluster 120 similarity
+163,Cluster 121 similarity
+164,Cluster 122 similarity
+165,Cluster 123 similarity
+166,Cluster 124 similarity
+167,Cluster 125 similarity
+168,Cluster 126 similarity
+169,Cluster 127 similarity
+170,Cluster 128 similarity
+171,Cluster 129 similarity
+172,Cluster 130 similarity
+173,Cluster 131 similarity
+174,Cluster 132 similarity
+175,Cluster 133 similarity
+176,Cluster 134 similarity
+177,Cluster 135 similarity
+178,Cluster 136 similarity
+179,Cluster 137 similarity
+180,Cluster 138 similarity
+181,Cluster 139 similarity
+182,Cluster 140 similarity
+183,Cluster 141 similarity
+184,Cluster 142 similarity
+185,Cluster 143 similarity
+186,Cluster 144 similarity
+187,Cluster 145 similarity
+188,Cluster 146 similarity
+189,Cluster 147 similarity
+190,Cluster 148 similarity
+191,Cluster 149 similarity
+192,Cluster 150 similarity
+193,Cluster 151 similarity
+194,Cluster 152 similarity
+195,Cluster 153 similarity
+196,Cluster 154 similarity
+197,Cluster 155 similarity
+198,Cluster 156 similarity
+199,Cluster 157 similarity
+200,Cluster 158 similarity
+201,Cluster 159 similarity
+202,Cluster 160 similarity
+203,Cluster 161 similarity
+204,Cluster 162 similarity
+205,Cluster 163 similarity
+206,Cluster 164 similarity
+207,Cluster 165 similarity
+208,Cluster 166 similarity
+209,Cluster 167 similarity
+210,Cluster 168 similarity
+211,Cluster 169 similarity
+212,Cluster 170 similarity
+213,Cluster 171 similarity
+214,Cluster 172 similarity
+215,Cluster 173 similarity
+216,Cluster 174 similarity
+217,Cluster 175 similarity
+218,Cluster 176 similarity
+219,Cluster 177 similarity
+220,Cluster 178 similarity
+221,Cluster 179 similarity
+222,Cluster 180 similarity
+223,Cluster 181 similarity
+224,Cluster 182 similarity
+225,Cluster 183 similarity
+226,Cluster 184 similarity
+227,Cluster 185 similarity
+228,Cluster 186 similarity
+229,Cluster 187 similarity
+230,Cluster 188 similarity
+231,Cluster 189 similarity
+232,Cluster 190 similarity
+233,Cluster 191 similarity
+234,Cluster 192 similarity
+235,Cluster 193 similarity
+236,Cluster 194 similarity
+237,Cluster 195 similarity
+238,Cluster 196 similarity
+239,Cluster 197 similarity
+240,Cluster 198 similarity
+241,Cluster 199 similarity
+242,Cluster 200 similarity
+243,Cluster 201 similarity
+244,Cluster 202 similarity
+245,Cluster 203 similarity
+246,Cluster 204 similarity
+247,Cluster 205 similarity
+248,Cluster 206 similarity
+249,Cluster 207 similarity
+250,Cluster 208 similarity
+251,Cluster 209 similarity
+252,Cluster 210 similarity
+253,Cluster 211 similarity
+254,Cluster 212 similarity
+255,Cluster 213 similarity
+256,Cluster 214 similarity
+257,Cluster 215 similarity
+258,Cluster 216 similarity
+259,Cluster 217 similarity
+260,Cluster 218 similarity
+261,Cluster 219 similarity
+262,Cluster 220 similarity
+263,Cluster 221 similarity
+264,Cluster 222 similarity
+265,Cluster 223 similarity
+266,Cluster 224 similarity
+267,Cluster 225 similarity
+268,Cluster 226 similarity
+269,Cluster 227 similarity
+270,Cluster 228 similarity
+271,Cluster 229 similarity
+272,Cluster 230 similarity
+273,Cluster 231 similarity
+274,Cluster 232 similarity
+275,Cluster 233 similarity
+276,Cluster 234 similarity
+277,Cluster 235 similarity
+278,Cluster 236 similarity
+279,Cluster 237 similarity
+280,Cluster 238 similarity
+281,Cluster 239 similarity
+282,Cluster 240 similarity
+283,Cluster 241 similarity
+284,Cluster 242 similarity
+285,Cluster 243 similarity
+286,Cluster 244 similarity
+287,Cluster 245 similarity
+288,Cluster 246 similarity
+289,Cluster 247 similarity
+290,Cluster 248 similarity
+291,Cluster 249 similarity
+292,Cluster 250 similarity
+293,Cluster 251 similarity
+294,Cluster 252 similarity
+295,Cluster 253 similarity
+296,Cluster 254 similarity
+297,Cluster 255 similarity
+298,Cluster 256 similarity
+299,Cluster 257 similarity
+300,Cluster 258 similarity
+301,Cluster 259 similarity
+302,Cluster 260 similarity
+303,Cluster 261 similarity
+304,Cluster 262 similarity
+305,Cluster 263 similarity
+306,Cluster 264 similarity
+307,Cluster 265 similarity
+308,Cluster 266 similarity
+309,Cluster 267 similarity
+310,Cluster 268 similarity
+311,Cluster 269 similarity
+312,Cluster 270 similarity
+313,Cluster 271 similarity
+314,Cluster 272 similarity
+315,Cluster 273 similarity
+316,Cluster 274 similarity
+317,Cluster 275 similarity
+318,Cluster 276 similarity
+319,Cluster 277 similarity
+320,Cluster 278 similarity
+321,Cluster 279 similarity
+322,Cluster 280 similarity
+323,Cluster 281 similarity
+324,Cluster 282 similarity
+325,Cluster 283 similarity
+326,Cluster 284 similarity
+327,Cluster 285 similarity
+328,Cluster 286 similarity
+329,Cluster 287 similarity
+330,Cluster 288 similarity
+331,Cluster 289 similarity
+332,Cluster 290 similarity
+333,Cluster 291 similarity
+334,Cluster 292 similarity
+335,Cluster 293 similarity
+336,Cluster 294 similarity
+337,Cluster 295 similarity
+338,Cluster 296 similarity
+339,Cluster 297 similarity
+340,Cluster 298 similarity
+341,Cluster 299 similarity
+342,Cluster 300 similarity
+343,Cluster 301 similarity
+344,Cluster 302 similarity
+345,Cluster 303 similarity
+346,Cluster 304 similarity
+347,Cluster 305 similarity
+348,Cluster 306 similarity
+349,Cluster 307 similarity
+350,Cluster 308 similarity
+351,Cluster 309 similarity
+352,Cluster 310 similarity
+353,Cluster 311 similarity
+354,Cluster 312 similarity
+355,Cluster 313 similarity
+356,Cluster 314 similarity
+357,Cluster 315 similarity
+358,Cluster 316 similarity
+359,Cluster 317 similarity
+360,Cluster 318 similarity
+361,Cluster 319 similarity
+362,Cluster 320 similarity
+363,Cluster 321 similarity
+364,Cluster 322 similarity
+365,Cluster 323 similarity
+366,Cluster 324 similarity
+367,Cluster 325 similarity
+368,Cluster 326 similarity
+369,Cluster 327 similarity
+370,Cluster 328 similarity
+371,Cluster 329 similarity
+372,Cluster 330 similarity
+373,Cluster 331 similarity
+374,Cluster 332 similarity
+375,Cluster 333 similarity
+376,Cluster 334 similarity
+377,Cluster 335 similarity
+378,Cluster 336 similarity
+379,Cluster 337 similarity
+380,Cluster 338 similarity
+381,Cluster 339 similarity
+382,Cluster 340 similarity
+383,Cluster 341 similarity
+384,Cluster 342 similarity
+385,Cluster 343 similarity
+386,Cluster 344 similarity
+387,Cluster 345 similarity
+388,Cluster 346 similarity
+389,Cluster 347 similarity
+390,Cluster 348 similarity
+391,Cluster 349 similarity
+392,Cluster 350 similarity
+393,Cluster 351 similarity
+394,Cluster 352 similarity
+395,Cluster 353 similarity
+396,Cluster 354 similarity
+397,Cluster 355 similarity
+398,Cluster 356 similarity
+399,Cluster 357 similarity
+400,Cluster 358 similarity
+401,Cluster 359 similarity
+402,Cluster 360 similarity
+403,Cluster 361 similarity
+404,Cluster 362 similarity
+405,Cluster 363 similarity
+406,Cluster 364 similarity
+407,Cluster 365 similarity
+408,Cluster 366 similarity
+409,Cluster 367 similarity
+410,Cluster 368 similarity
+411,Cluster 369 similarity
+412,Cluster 370 similarity
+413,Cluster 371 similarity
+414,Cluster 372 similarity
+415,Cluster 373 similarity
+416,Cluster 374 similarity
+417,Cluster 375 similarity
+418,Cluster 376 similarity
+419,Cluster 377 similarity
+420,Cluster 378 similarity
+421,Cluster 379 similarity
+422,Cluster 380 similarity
+423,Cluster 381 similarity
+424,Cluster 382 similarity
+425,Cluster 383 similarity
+426,Cluster 384 similarity
+427,Cluster 385 similarity
+428,Cluster 386 similarity
+429,Cluster 387 similarity
+430,Cluster 388 similarity
+431,Cluster 389 similarity
+432,Cluster 390 similarity
+433,Cluster 391 similarity
+434,Cluster 392 similarity
+435,Cluster 393 similarity
+436,Cluster 394 similarity
+437,Cluster 395 similarity
+438,Cluster 396 similarity
+439,Cluster 397 similarity
+440,Cluster 398 similarity
+441,Cluster 399 similarity
+442,Cluster 400 similarity
+443,Cluster 401 similarity
+444,Cluster 402 similarity
+445,Cluster 403 similarity
+446,Cluster 404 similarity
+447,Cluster 405 similarity
+448,Cluster 406 similarity
+449,Cluster 407 similarity
+450,Cluster 408 similarity
+451,Cluster 409 similarity
+452,Cluster 410 similarity
+453,Cluster 411 similarity
+454,Cluster 412 similarity
+455,Cluster 413 similarity
+456,Cluster 414 similarity
+457,Cluster 415 similarity
+458,Cluster 416 similarity
+459,Cluster 417 similarity
+460,Cluster 418 similarity
+461,Cluster 419 similarity
+462,Cluster 420 similarity
+463,Cluster 421 similarity
+464,Cluster 422 similarity
+465,Cluster 423 similarity
+466,Cluster 424 similarity
+467,Cluster 425 similarity
+468,Cluster 426 similarity
+469,Cluster 427 similarity
+470,Cluster 428 similarity
+471,Cluster 429 similarity
+472,Cluster 430 similarity
+473,Cluster 431 similarity
+474,Cluster 432 similarity
+475,Cluster 433 similarity
+476,Cluster 434 similarity
+477,Cluster 435 similarity
+478,Cluster 436 similarity
+479,Cluster 437 similarity
+480,Cluster 438 similarity
+481,Cluster 439 similarity
+482,Cluster 440 similarity
+483,Cluster 441 similarity
+484,Cluster 442 similarity
+485,Cluster 443 similarity
+486,Cluster 444 similarity
+487,Cluster 445 similarity
+488,Cluster 446 similarity
+489,Cluster 447 similarity
+490,Cluster 448 similarity
+491,Cluster 449 similarity
+492,Cluster 450 similarity
+493,Cluster 451 similarity
+494,Cluster 452 similarity
+495,Cluster 453 similarity
+496,Cluster 454 similarity
+497,Cluster 455 similarity
+498,Cluster 456 similarity
+499,Cluster 457 similarity
+500,Cluster 458 similarity
+501,Cluster 459 similarity
+502,Cluster 460 similarity
+503,Cluster 461 similarity
+504,Cluster 462 similarity
+505,Cluster 463 similarity
+506,Cluster 464 similarity
+507,Cluster 465 similarity
+508,Cluster 466 similarity
+509,Cluster 467 similarity
+510,Cluster 468 similarity
+511,Cluster 469 similarity
+512,Cluster 470 similarity
+513,Cluster 471 similarity
+514,Cluster 472 similarity
+515,Cluster 473 similarity
+516,Cluster 474 similarity
+517,Cluster 475 similarity
+518,Cluster 476 similarity
+519,Cluster 477 similarity
+520,Cluster 478 similarity
+521,Cluster 479 similarity
+522,Cluster 480 similarity
+523,Cluster 481 similarity
+524,Cluster 482 similarity
+525,Cluster 483 similarity
+526,Cluster 484 similarity
+527,Cluster 485 similarity
+528,Cluster 486 similarity
+529,Cluster 487 similarity
+530,Cluster 488 similarity
+531,Cluster 489 similarity
+532,Cluster 490 similarity
+533,Cluster 491 similarity
+534,Cluster 492 similarity
+535,Cluster 493 similarity
+536,Cluster 494 similarity
+537,Cluster 495 similarity
+538,Cluster 496 similarity
+539,Cluster 497 similarity
+540,Cluster 498 similarity
+541,Cluster 499 similarity
+542,grunnkrets_id_density
+543,t_district_density
+544,municipality_name_density
+545,avg_household_income_grunnkrets_id
+546,avg_household_income_t_district
+547,avg_household_income_municipality_name
+548,distance_to_mangler_viktighetsnivå
+549,distance_to_standard_holdeplass
+550,distance_to_lokalt_knutepunkt
+551,distance_to_nasjonalt_knutepunkt
+552,distance_to_regionalt_knutepunkt
+553,distance_to_annen_viktig_holdeplass
+554,grunnkrets_id_kids_%
+555,grunnkrets_id_kids+_%
+556,grunnkrets_id_youths_%
+557,grunnkrets_id_youthAdult_%
+558,grunnkrets_id_adult_%
+559,grunnkrets_id_adults+_%
+560,grunnkrets_id_pensinors_%
+561,t_district_kids_%
+562,t_district_kids+_%
+563,t_district_youths_%
+564,t_district_youthAdult_%
+565,t_district_adult_%
+566,t_district_adults+_%
+567,t_district_pensinors_%
+568,municipality_name_kids_%
+569,municipality_name_kids+_%
+570,municipality_name_youths_%
+571,municipality_name_youthAdult_%
+572,municipality_name_adult_%
+573,municipality_name_adults+_%
+574,municipality_name_pensinors_%
+575,distance_closest_mall_name
+576,distance_closest_chain_name
+577,store_name_first
+578,store_name_last
+579,address_first
+580,is_chain
+581,is_mall
+582,store_type_chain
+583,store_type_mall
+584,store_type_municipality
+585,bus_distance_to_store
+586,store_type_district

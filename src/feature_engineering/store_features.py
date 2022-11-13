@@ -1,14 +1,20 @@
 import pandas as pd
 from scipy.spatial.distance import cdist
+from feature_engineering.demographic_features import *
 
-def store_count(X, agg_cols, agg_name, **kwargs):
+
+def store_count(X, agg_cols, agg_name):
     return X.groupby(agg_cols).size().reset_index(name=agg_name, drop=False)
 
-def average_revenue(X, agg_cols, agg_name, **kwargs):
-    return  X.groupby(agg_cols)['revenue'].agg('mean').reset_index(name=agg_name, drop=False)
+def store_density(stores_df, grunnkrets_df):
+    
+    pass
 
-def total_revenue(X, agg_cols, agg_name, **kwargs):
-    return  X.groupby(agg_cols)['revenue'].agg('sum').reset_index(name=agg_name, drop=False)
+# def average_revenue(X, agg_cols, agg_name, **kwargs):
+#     return  X.groupby(agg_cols)['revenue'].agg('mean').reset_index(name=agg_name, drop=False)
+
+# def total_revenue(X, agg_cols, agg_name, **kwargs):
+#     return  X.groupby(agg_cols)['revenue'].agg('sum').reset_index(name=agg_name, drop=False)
 
 def stores_in_radius(stores_df, compare_df, radius=0.1, store_type_group=None):
     mat = cdist(stores_df[['lat', 'lon']],

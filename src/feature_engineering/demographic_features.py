@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-from feature_engineering.store_features import *
 
 def population(dataset_age):
     population = dataset_age.drop(["grunnkrets_id"], axis=1).sum(axis=1)
@@ -27,7 +26,7 @@ def population_count_grouped_by_geo_group(stores_df, age_df, grunnkrets_df, geo_
         merged_df2 = merged_df.add_prefix(f'{geo_group}_')
         df_list.append(merged_df2)
 
-    return pd.concat(df_list, axis = 1)
+    return pd.concat(df_list, axis = 1).reset_index()
 
 def population_density(age_df, geo_df, grouping_element):
     age_data = population(age_df)
